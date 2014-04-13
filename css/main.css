@@ -54,6 +54,16 @@ a:visited { color: #a0a; }
   line-height: 1.5em;
 }
 
+.header {
+    position: relative;
+}
+
+.header .nav {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
 .header a {
   font-weight: bold;
   text-decoration: none;
