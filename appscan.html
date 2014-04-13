@@ -4,12 +4,12 @@ title: FreeDPI
 appscan_active: active
 ---
 
-<h2>AppScan</h2>
+<h2>HyperScan应用态开发套件</h2>
 <p>
 <div class="hero-unit">
-AppScan是用户态的DPI开发套件，以动态库(libas.so)方式提供，用户通过链接的方式集成进解决方案中。AppScan套件能够在用户态提供基于流的应用级的流量可视功能，供客户做进一步的分析、审计。Appscan套件同时支持支持多进程框架和多线程框架。AppScan套件以libnids框架为例，演示了如果集成AppScan开发套件。
+HyperScan应用态开发套件以动态库(libhs.so)方式提供，用户通过链接的方式集成进解决方案中。HyperScan套件能够在用户态提供基于流的应用级的流量可视功能，供客户做进一步的分析、审计。HyperScan套件同时支持支持多进程框架和多线程框架。HyperScan套件以libnids框架为例，演示了如果集成HyperScan开发套件。
 </div>
-<h2>KAppScan</h2>
+<h2>HyperScan内核态开发套件</h2>
 <div class="hero-unit">
-KAppScan是内核态的DPI开发套件，以linux模块方式（kappscan.ko）方式提供，通过加载模块并调用识别接口后，内核中每一条流（session/flow）都被识别为相应的应用或者协议，客户的解决方案可以基于该识别结果做进一步的控制，包括分流、限速和阻断等。KAppScan同时支持包模式和流模式（每条流同时只能被一个核心处理，内部免锁，性能高）。KAppScan开发套件以netfilter/conntrack框架为例，演示了如何集成KAppScan套件。
+HyperScan内核态开发套件以linux模块方式（hyperscan.ko）方式提供，通过加载模块并调用识别接口后，内核中每一条流（session/flow）都被识别为相应的应用或者协议，客户的解决方案可以基于该识别结果做进一步的控制，包括分流、限速和阻断等。HyperScan同时支持包模式和流模式（每条流同时只能被一个核心处理，内部免锁，性能高）。在HyperScan内核态开发包中以netfilter/conntrack框架为例，演示了如何集成HyperScan内核态开发套件。
 </div>
