@@ -1,1 +1,1 @@
-*.pyc_site/
+_site/*.pyc
