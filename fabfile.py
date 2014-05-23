@@ -2,7 +2,7 @@
 from fabric.api import *
 env.use_ssh_config = True
 env.hosts = ['rf']
-env.proj_root = '/home/guo/apps/freedpi'
+env.proj_root = '/srv/src/freedpi'
 
 def pull():
     with cd(env.proj_root):
