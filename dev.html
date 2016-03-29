@@ -4,12 +4,10 @@ title: FreeDPI
 dev_active: active
 ---
 
-<h2>HyperScan应用态开发套件</h2>
+<h2>FreeDPI应用态开发套件</h2>
 <p>
 <div class="hero-unit">
-HyperScan应用态开发套件以动态库(libhs.so)方式提供，用户通过链接的方式集成进解决方案中。HyperScan套件能够在用户态提供基于流的应用级的流量可视功能，供客户做进一步的分析、审计。HyperScan套件同时支持支持多进程框架和多线程框架。HyperScan套件以libnids框架为例，演示了如果集成HyperScan开发套件。
-</div>
-<h2>HyperScan内核态开发套件</h2>
+FreeDPI应用态开发套件以动态库方式提供，用户通过链接的方式集成进解决方案中。FreeDPI套件能够在用户态提供基于流的应用级的流量可视功能，供客户做进一步的分析、审计。FreeDPI套件同时支持支持多进程框架和多线程框架。FreeDPI套件以libnids框架为例，演示了如果集成FreeDPI开发套件。</div>
+<h2>FreeDPI内核态开发套件</h2>
 <div class="hero-unit">
-HyperScan内核态开发套件以linux模块方式（hyperscan.ko）方式提供，通过加载模块并调用识别接口后，内核中每一条流（session/flow）都被识别为相应的应用或者协议，客户的解决方案可以基于该识别结果做进一步的控制，包括分流、限速和阻断等。HyperScan同时支持包模式和流模式（每条流同时只能被一个核心处理，内部免锁，性能高）。在HyperScan内核态开发包中以netfilter/conntrack框架为例，演示了如何集成HyperScan内核态开发套件。
-</div>
+FreeDPI内核态开发套件以linux模块方式方式提供，通过加载模块并调用识别接口后，内核中每一条流（session/flow）都被识别为相应的应用或者协议，客户的解决方案可以基于该识别结果做进一步的控制，包括分流、限速和阻断等。FreeDPI同时支持包模式和流模式（每条流同时只能被一个核心处理，内部免锁，性能高）。在FreeDPI内核态开发包中以netfilter/conntrack框架为例，演示了如何集成FreeDPI内核态开发套件。</div>
